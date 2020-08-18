@@ -3,14 +3,14 @@ class Ground{
         this.lenght=l
         this.arr =[]
         this.height=-height
-        this.noiseScale= 0.005
-        this.xScale =5
-        this.yScale =2;
+        this.noiseScale= 0.01
+        this.xScale =20
+        this.yScale =12;
       this.arr.push({x:0,y:height*5})
        this.arr.push({x:0,y:this.height})
        // vertex(0,height)
        // vertex(0,this.height)
-        for (let x=0; x < 1000*this.xScale; x++) {
+        for (let x=0; x < 1500; x++) {
             let noiseScale=this.noiseScale;
           //  this.noiseScale +=0.0001
           if(this.yScale<60)
