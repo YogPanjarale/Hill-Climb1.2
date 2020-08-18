@@ -81,8 +81,8 @@ function groundBodies(){
 	   strokeWeight(0)
 	   fill(0,25,20)
 	   var angle = angleBetween(a, b)
-	  newWall((a.x+b.x)/2,(a.y+b.y)/2,int(dist(a.x,a.y,b.x,b.y)),10,angle,false)
-	  newWallBall(b.x,b.y,0,8,0,false)
+	  newWall((a.x+b.x)/2,(a.y+b.y)/2,int(dist(a.x,a.y,b.x,b.y)),7,angle,false)
+	  newWallBall(b.x,b.y,0,7,0,false)
 //  console.log((a.x+b.x)/2,(a.y+b.y)/2,int(dist(a.x,a.y,b.x,b.y)),2,angle,false)
 	  // var r= rect(0,0,int(dist(a.x,a.y,b.x,b.y)), 1);
 
