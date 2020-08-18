@@ -12,7 +12,7 @@ function preload()
 var r1
 function setup() {
 	createCanvas(windowWidth,windowHeight);
-
+console.log("1.3")
 
 	engine = Engine.create();
 	world = engine.world;
