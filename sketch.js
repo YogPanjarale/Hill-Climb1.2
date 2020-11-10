@@ -18,7 +18,7 @@ console.log("1.3")
 	world = engine.world;
 
 	//Create the Bodies Here.
-    car = new Car(600,-height-200,125,75,20,40,-35,35)
+    car = new Car(600,-300,125,75,20,40,-35,35)
     ground = new Ground(width)
 	Engine.run(engine);
 	groundBodies();
